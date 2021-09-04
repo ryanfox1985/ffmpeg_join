@@ -27,7 +27,9 @@ To install ffmpeg_join command line go to [releases](https://github.com/ryanfox1
 Run:
 
 ```bash
-./ffmpeg_join [folder1] [folder2]...
+./ffmpeg_join [absolute_path_folder1] [absolute_path_folder2]...
 ```
 
-Note: be sure ffmpeg is installed in one of these paths: `/usr/bin:/sbin:/usr/local/bin`
+Note:
+- Be sure ffmpeg is installed in one of these paths: `/usr/bin:/sbin:/usr/local/bin`
+- path parameters should be absolute.
