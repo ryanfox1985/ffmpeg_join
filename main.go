@@ -65,10 +65,10 @@ func createTextFile(root string, files []os.FileInfo) (string, error) {
 }
 
 func executeCmd(textFile string, output string) {
-	cmdTxt := fmt.Sprintf("/usr/bin/ffmpeg -y -f concat -safe 0 -i %s -c copy %s", textFile, output)
+	cmdTxt := fmt.Sprintf("ffmpeg -y -f concat -safe 0 -i %s -c copy %s", textFile, output)
 	fmt.Printf("4- Running %s...\n", cmdTxt)
 
-	os.Setenv("PATH", "/usr/bin:/sbin")
+	os.Setenv("PATH", "/usr/bin:/sbin:/usr/local/bin")
 	cmd := exec.Command("ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", textFile, "-c", "copy", output)
 	// cmd.Stdout = os.Stdout
 	// cmd.Stderr = os.Stderr
