@@ -15,7 +15,7 @@ Sponsor this project:
 #### With [Homebrew](http://brew.sh) (Mac OS & linux)
 ```
 $ brew tap devcows/apps
-$ brew install ffmpeg_join
+$ brew install ffmpeg ffmpeg_join
 ```
 
 #### Other
