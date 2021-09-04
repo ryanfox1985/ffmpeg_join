@@ -32,4 +32,4 @@ Run:
 
 Note:
 - Be sure ffmpeg is installed in one of these paths: `/usr/bin:/sbin:/usr/local/bin`
-- path parameters should be absolute.
+- Path parameters should be absolute.
