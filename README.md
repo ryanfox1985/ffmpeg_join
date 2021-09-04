@@ -1,6 +1,6 @@
 # ffmpeg_join
 
-ffmpeg_join is a command line for join video files using ffmpeg tool.
+Ffmpeg_join is a command line for join video files using ffmpeg tool.
 
 `TODO png or gif usage`
 
@@ -20,7 +20,7 @@ $ brew install ffmpeg_join
 
 #### Other
 
-To install Share command line go to [releases](https://github.com/ryanfox1985/ffmpeg_join/releases) and download package for your operating system.
+To install Ffmpeg_join command line go to [releases](https://github.com/ryanfox1985/ffmpeg_join/releases) and download package for your operating system.
 
 ### Usage
 
